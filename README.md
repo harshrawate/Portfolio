@@ -1,3 +1,28 @@
+Personal Portfolio Website
+Overview
+This is a fully responsive and dynamic portfolio website designed to showcase projects, skills, and achievements as a web developer. The website features a modern UI, seamless navigation, and secure form handling. Built using the MERN stack, it highlights your proficiency in full-stack development and provides a professional platform to connect with potential employers or collaborators.
+
+Features
+Home Page: A visually appealing introduction with a professional layout.
+Projects Section: Showcases your key projects with descriptions, links to repositories, and live demos.
+Skills Section: Highlights technical expertise in various web development technologies.
+Contact Form: Integrated form using Getform.io for secure and reliable message submission.
+Responsive Design: Ensures optimal user experience across devices (desktop, tablet, mobile).
+Dynamic Content: Uses backend integration to manage project and contact data efficiently.
+Tech Stack
+Frontend
+React.js
+TailwindCSS
+Backend
+Node.js
+Express.js
+Database
+MongoDB
+Form Handling
+Getform.io
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
