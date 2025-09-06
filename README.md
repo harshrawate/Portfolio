@@ -3,7 +3,7 @@ Overview
 This is a fully responsive and dynamic portfolio website designed to showcase projects, skills, and achievements as a web developer. The website features a modern UI, seamless navigation, and secure form handling. Built using the MERN stack, it highlights your proficiency in full-stack development and provides a professional platform to connect with potential employers or collaborators.
 
 Features
-Home Page: A visually appealing introduction with a professional layout.
+Home Page: A visually appealing introduction with a professional layout
 Projects Section: Showcases your key projects with descriptions, links to repositories, and live demos.
 Skills Section: Highlights technical expertise in various web development technologies.
 Contact Form: Integrated form using Getform.io for secure and reliable message submission.
