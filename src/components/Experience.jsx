@@ -8,6 +8,15 @@ import tailwind from "../assets/tailwind.png";
 import nodejs from "../assets/node.png";
 import mongodb from "../assets/mongodb.png";
 import express from "../assets/express-js.png";
+import sql from "../assets/sql.png";
+import python from "../assets/Python.webp";
+import supabase from "../assets/supabase.jpg";
+import redux from "../assets/redux.png";
+import postgres from "../assets/postgresql.jpg";
+import nextjs from "../assets/nextjs.png";
+import genai from "../assets/genai.avif";
+import docker from "../assets/docker.png";
+import c from "../assets/c++.png";
 import { FaAws, FaServer, FaCloud, FaGlobe, FaRocket } from 'react-icons/fa';
 
 const Experience = () => {
@@ -57,6 +66,15 @@ const Experience = () => {
     { id: 7, src: express, title: "Express.js" },
     { id: 8, src: github, title: "GitHub" },
     { id: 9, src: mongodb, title: "MongoDB" },
+    { id: 10, src: sql, title: "SQL" },
+    { id: 11, src: python, title: "Python" },
+    { id: 12, src: supabase, title: "Supabase" },
+    { id: 13, src: redux, title: "Redux" },
+    { id: 14, src: postgres, title: "PostgreSQL" },
+    { id: 15, src: nextjs, title: "Next.js" },
+    { id: 16, src: genai, title: "Generative AI" },
+    { id: 17, src: docker, title: "Docker" },
+    { id: 18, src: c, title: "C++" },
   ];
 
   return (
@@ -120,7 +138,7 @@ const Experience = () => {
         {/* Technologies Section */}
         <div>
           <h3 className="text-2xl font-bold text-slate-800 mb-6">Technologies I Work With</h3>
-          <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 sm:gap-8 text-center">
+          <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 sm:gap-8 text-center">
             {techs.map(({ id, src, title }) => (
               <div
                 key={id}
