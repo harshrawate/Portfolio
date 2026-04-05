@@ -3,6 +3,8 @@ import airbnb from "../assets/portfolio/airbnb.png";
 import zerodha from "../assets/portfolio/zerodha.png";
 import samagri from "../assets/samagri.png";
 import dashboard from "../assets/dashboard.png";
+import mediai from "../assets/mediai.png";
+import askbuddy from "../assets/askbuddy.png";
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const PortfolioMain = () => {
@@ -15,8 +17,25 @@ const PortfolioMain = () => {
       desc: "A web platform that enables users to easily book priests for religious ceremonies and buy required pooja samagri through a seamless e-commerce experience.",
       featured: true
     },
+
     {
       id: 2,
+      src: mediai,
+      href: "https://github.com/harshrawate/MediAI",
+      title: "MediAI",
+      desc: "MediAI is a modern web application designed to help users make informed decisions about the products they consume. By leveraging advanced AI and real-time web search, MediAI analyzes product ingredients from labels to provide health scores, detailed breakdowns, and personalized advice through an interactive chatbot.",
+      featured: true
+    },
+    {
+      id: 3,
+      src: askbuddy,
+      href: "https://github.com/harshrawate/AskBuddy-Chatbot",
+      title: "AskBuddy-Chatbot",
+      desc: "AskBuddy is a powerful, full-stack AI chatbot designed to provide smart, context-aware responses by leveraging the latest AI models and real-time web search capabilities. Whether it's answering common knowledge questions or fetching the latest news, AskBuddy has you covered.",
+      featured: true
+    },
+    {
+      id: 4,
       src: zerodha,
       href: "https://github.com/harshrawate/Zerodha-DashboardPage-And-Backend",
       title: "Zerodha Dashboard",
@@ -24,7 +43,7 @@ const PortfolioMain = () => {
       featured: true
     },
     {
-      id: 3,
+      id: 5,
       src: dashboard,
       href: "https://github.com/harshrawate/Advanced-Analytics-Dashboard",
       title: "Advanced Analytics Dashboard",
@@ -32,13 +51,15 @@ const PortfolioMain = () => {
       featured: true
     },
     {
-      id: 4,
+      id: 6,
       src: airbnb,
       href: "https://github.com/harshrawate/Airbnb-Project",
       title: "Airbnb Clone",
       desc: "A full-stack booking application mimicking core Airbnb functionalities.",
       featured: true
     },
+
+
   ];
 
   return (
